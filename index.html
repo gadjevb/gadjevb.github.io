@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>task5 and task6</title>
-	    <script src="task5.js"></script>
-		<link rel="stylesheet" type="text/css" href="calculator.css">
-		<script src="calculator.js"></script>
+		<title>Task 5,6 and 7</title>
+		<link rel="stylesheet" type="text/css" href="task6/calculator.css">
+		<link rel="stylesheet" type="text/css" href="task7/validator.css">
+		<script src="task5/task5.js"></script>
+		<script src="task6/calculator.js"></script>
+		<script src="task7/validator.js"></script>
 	</head>
 	<body>
 		<form method="post" name="Registration">
@@ -31,6 +33,8 @@
 			Confirm password:<br>
 			<input type="password" name="Confirm password" id="conPass" onblur="validatePassword('Confirm password','conPass')">
 		  </fieldset>
+		</form>
+		<br>
 		<div class="calculator">
 			<textarea id="present" name="screen" readonly ></textarea>
 			<br>
@@ -56,6 +60,10 @@
 			<br>
 			<button class="clear" type="button" name="C" onclick="clr()">C</button>
 		</div>
-		</form>
+		<br>
+		<div class="validator">
+			<input class="fraction" type="text" id="frac" name="fractionField" placeholder="Enter fraction value!">
+			<button class="checker" id="op" onclick="validator()">Check</button>
+		</div>
 	</body>
 </html>
