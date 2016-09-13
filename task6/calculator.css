@@ -4,9 +4,9 @@ textarea {
     height: 60px;
 	font-size: 50px;
 	text-align: right;
-	background-color: rgb(230,230,255);
-	border: 1px solid black;
-    border-radius: 2px;
+	background-color: rgb(230,230,230);
+	border: 1px rgb(230,230,230);
+    border-radius: 15px;
 	margin: 2px;
 }
 
@@ -14,9 +14,9 @@ textarea {
 	width: 75px;
     height: 45px;
 	font-size: 20px;
-	background-color: rgb(220,220,255);
+	background-color: rgb(230,230,230);
 	border-bottom-width: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
 	margin: 2px;
 }
 
@@ -26,7 +26,7 @@ textarea {
 	font-size: 20px;
 	background-color: rgb(250,130,60);
 	border-bottom-width: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
 	margin: 2px;
 }
 
@@ -34,9 +34,9 @@ textarea {
 	width: 75px;
     height: 45px;
 	font-size: 20px;
-	background-color: rgb(200,200,255);
+	background-color: rgb(190,190,190);
 	border-bottom-width: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
 	margin: 2px;
 }
 
@@ -46,7 +46,7 @@ textarea {
 	font-size: 20px;
 	background-color: rgb(127,256,127);
 	border-bottom-width: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
 	margin: 2px;
 }
 
@@ -56,13 +56,14 @@ textarea {
 	font-size: 20px;
 	background-color: rgb(256,127,127);
 	border-bottom-width: 3px;
-    border-radius: 2px;
+    border-radius: 15px;
 	margin: 2px;
 }
 
 .calculator {
-	background-color: rgb(240,240,255);
+	background-color: rgb(150,150,150);
 	border-style: double;
+	border-radius: 15px;
 	width: 332px;
-    height: 313px;
+    height: 308px;
 }
