@@ -1,0 +1,7 @@
+textarea {
+    resize: none;
+    width: 212px;
+    height: 60px;
+    font-size: 50px;
+    text-align: right;
+}
