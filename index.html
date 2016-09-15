@@ -31,39 +31,40 @@
                 <form method="post" name="Registration">
                     <fieldset>
                         <legend>Personal information:</legend>
-                        First name:<br>
+                        First name:
+                        <br>
                         <input type="text" name="First name" onblur="validateName('First name')">
+                        <br> Last name:
                         <br>
-                        Last name:<br>
                         <input type="text" name="Last name" onblur="validateName('Last name')">
+                        <br> EGN:
                         <br>
-                        EGN:<br>
                         <input type="text" name="egn" onblur="validateEGN('egn')">
+                        <br> Age:
                         <br>
-                        Age:<br>
                         <input type="text" name="age" onblur="validateAge('age')">
+                        <br> Address:
                         <br>
-                        Address:<br>
                         <input type="text" name="address" onblur="validateAddress('address')">
+                        <br> Password:
                         <br>
-                        Password:<br>
                         <input type="password" name="Password" id="pass" onblur="validatePassword('Password','pass')">
+                        <br> Confirm password:
                         <br>
-                        Confirm password:<br>
                         <input type="password" name="Confirm password" id="conPass" onblur="validatePassword('Confirm password','conPass')">
                     </fieldset>
                 </form>
             </div>
             <div class="contained-fluid col-md-3">
-                <textarea id="present" name="screen" style="resize: none; width: 249px; height: 60px; font-size: 35px; text-align: right;" disabled></textarea>
+                <textarea id="present" name="screen" style="resize: none; width: 249px; height: 75px; font-size: 35px; text-align: right;" disabled></textarea>
                 <br>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;"  type="button" name="7" onclick="appendDigit('7')">7</button>
+                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="7" onclick="appendDigit('7')">7</button>
                 <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="8" onclick="appendDigit('8')">8</button>
                 <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="9" onclick="appendDigit('9')">9</button>
                 <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="+" onclick="appendOperator('+')">+</button>
                 <br>
                 <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="4" onclick="appendDigit('4')">4</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;"  type="button" name="5" onclick="appendDigit('5')">5</button>
+                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="5" onclick="appendDigit('5')">5</button>
                 <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="6" onclick="appendDigit('6')">6</button>
                 <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="-" onclick="appendOperator('-')">-</button>
                 <br>
@@ -89,4 +90,5 @@
         </div>
     </div>
 </body>
+
 </html>
