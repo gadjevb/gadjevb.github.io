@@ -13,82 +13,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">Borislav Gadjev</a>
-            </div>
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="https://gadjevb.github.io">Tasks</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="contained-fluid col-md-9">
-                <form method="post" name="Registration">
-                    <fieldset>
-                        <legend>Personal information:</legend>
-                        First name:
-                        <br>
-                        <input type="text" name="First name" onblur="validateName('First name')">
-                        <br> Last name:
-                        <br>
-                        <input type="text" name="Last name" onblur="validateName('Last name')">
-                        <br> EGN:
-                        <br>
-                        <input type="text" name="egn" onblur="validateEGN('egn')">
-                        <br> Age:
-                        <br>
-                        <input type="text" name="age" onblur="validateAge('age')">
-                        <br> Address:
-                        <br>
-                        <input type="text" name="address" onblur="validateAddress('address')">
-                        <br> Password:
-                        <br>
-                        <input type="password" name="Password" id="pass" onblur="validatePassword('Password','pass')">
-                        <br> Confirm password:
-                        <br>
-                        <input type="password" name="Confirm password" id="conPass" onblur="validatePassword('Confirm password','conPass')">
-                    </fieldset>
-                </form>
-            </div>
-            <div class="contained-fluid col-md-3">
-                <textarea id="present" name="screen" style="resize: none; width: 249px; height: 75px; font-size: 35px; text-align: right;" disabled></textarea>
-                <br>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="7" onclick="appendDigit('7')">7</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="8" onclick="appendDigit('8')">8</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="9" onclick="appendDigit('9')">9</button>
-                <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="+" onclick="appendOperator('+')">+</button>
-                <br>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="4" onclick="appendDigit('4')">4</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="5" onclick="appendDigit('5')">5</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="6" onclick="appendDigit('6')">6</button>
-                <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="-" onclick="appendOperator('-')">-</button>
-                <br>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="1" onclick="appendDigit('1')">1</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="2" onclick="appendDigit('2')">2</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="3" onclick="appendDigit('3')">3</button>
-                <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="/" onclick="appendOperator('/')">/</button>
-                <br>
-                <button class="btn-warning btn-lg" style="height: 40px; width: 59px;" type="button" name="R" onclick="removeLast()">R</button>
-                <button class="btn-info btn-lg" style="height: 40px; width: 59px;" type="button" name="0" onclick="appendDigit('0')">0</button>
-                <button class="btn-success btn-lg" style="height: 40px; width: 59px;" type="button" name="=" onclick="equate()">=</button>
-                <button class="btn-primary btn-lg" style="height: 40px; width: 59px;" type="button" name="*" onclick="appendOperator('*')">*</button>
-                <br>
-                <button class="btn-danger btn-lg" style="height: 40px; width: 248px;" type="button" name="C" onclick="clr()">C</button>
-            </div>
-            <div class="contained-fluid col-md-3">
-                <br>
-                <br>
-                <p style="font-size: 20px;"><b>Fraction checker:</b></p>
-                <input class="fraction" type="text" id="frac" style="height: 50px; width: 250px; text-align: right; font-size: 25px;" name="fractionField" placeholder="Enter fraction value!">
-                <button class="btn-success btn-lg" id="op" style="height: 50px; width: 100px; font-size: 22px;" onclick="validator()">Check</button>
-            </div>
-        </div>
-    </div>
+    <h3>Task1</h3>
+    <hr>
+    <img src="servlets/task1.png" alt="task1.png">
+    <hr>
+    <h3>Task2</h3>
+    <hr>
+    <img src="servlets/task2-red.png" alt="task2.png">
+    <img src="servlets/task2-recognized.png" alt="task2.png">
+    <hr>
+    <h3>Task3</h3>
+    <hr>
+    <img src="servlets/task3-red.png" alt="task3.png">
+    <img src="servlets/task3-red-greeted.png" alt="task3.png">
+    <img src="servlets/task3-red-not-greeted.png" alt="task3.png">
+    <hr>
 </body>
 
 </html>
